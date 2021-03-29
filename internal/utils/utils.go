@@ -4,7 +4,7 @@ import (
 	"github.com/ipfs/go-datastore"
 	cbg "github.com/whyrusleeping/cbor-gen"
 
-	versioning "github.com/filecoin-project/go-ds-versioning/pkg"
+	versioning "github.com/chenjianmei111/go-ds-versioning/pkg"
 )
 
 // KeysForVersion wraps every key in a list with a version prefix

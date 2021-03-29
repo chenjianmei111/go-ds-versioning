@@ -6,7 +6,7 @@ import (
 
 	cbg "github.com/whyrusleeping/cbor-gen"
 
-	versioning "github.com/filecoin-project/go-ds-versioning/pkg"
+	versioning "github.com/chenjianmei111/go-ds-versioning/pkg"
 )
 
 // CheckMigration validationes that a migration func matches the required signature for

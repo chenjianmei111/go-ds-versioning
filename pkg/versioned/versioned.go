@@ -9,7 +9,7 @@ import (
 	"github.com/ipfs/go-datastore"
 	"github.com/ipfs/go-datastore/namespace"
 
-	versioning "github.com/filecoin-project/go-ds-versioning/pkg"
+	versioning "github.com/chenjianmei111/go-ds-versioning/pkg"
 )
 
 type migrateFunc func(ctx context.Context, ds1 datastore.Batching, ds2 datastore.Batching) ([]datastore.Key, error)

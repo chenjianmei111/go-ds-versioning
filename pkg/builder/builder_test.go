@@ -11,10 +11,10 @@ import (
 	"github.com/stretchr/testify/require"
 	cbg "github.com/whyrusleeping/cbor-gen"
 
-	cborutil "github.com/filecoin-project/go-cbor-util"
+	cborutil "github.com/chenjianmei111/go-cbor-util"
 
-	versioning "github.com/filecoin-project/go-ds-versioning/pkg"
-	"github.com/filecoin-project/go-ds-versioning/pkg/builder"
+	versioning "github.com/chenjianmei111/go-ds-versioning/pkg"
+	"github.com/chenjianmei111/go-ds-versioning/pkg/builder"
 )
 
 func TestExecuteMigration(t *testing.T) {

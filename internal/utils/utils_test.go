@@ -6,8 +6,8 @@ import (
 	"github.com/ipfs/go-datastore"
 	"github.com/stretchr/testify/require"
 
-	"github.com/filecoin-project/go-ds-versioning/internal/utils"
-	versioning "github.com/filecoin-project/go-ds-versioning/pkg"
+	"github.com/chenjianmei111/go-ds-versioning/internal/utils"
+	versioning "github.com/chenjianmei111/go-ds-versioning/pkg"
 )
 
 func TestKeysForVersion(t *testing.T) {

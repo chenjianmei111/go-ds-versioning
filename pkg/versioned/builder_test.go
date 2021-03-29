@@ -7,9 +7,9 @@ import (
 	"github.com/stretchr/testify/require"
 	cbg "github.com/whyrusleeping/cbor-gen"
 
-	versioning "github.com/filecoin-project/go-ds-versioning/pkg"
-	"github.com/filecoin-project/go-ds-versioning/pkg/builder"
-	"github.com/filecoin-project/go-ds-versioning/pkg/versioned"
+	versioning "github.com/chenjianmei111/go-ds-versioning/pkg"
+	"github.com/chenjianmei111/go-ds-versioning/pkg/builder"
+	"github.com/chenjianmei111/go-ds-versioning/pkg/versioned"
 )
 
 func TestVersionedBuilderTest(t *testing.T) {

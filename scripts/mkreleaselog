@@ -21,7 +21,7 @@ REPO_SUFFIXES_TO_STRIP=(
 
 AUTHORS=(
     # orgs
-    filecoin-project/go-ds-versioning
+    chenjianmei111/go-ds-versioning
 )
 
 [[ -n "${REPO_FILTER+x}" ]] || REPO_FILTER="github.com/(${$(printf "|%s" "${AUTHORS[@]}"):1})"

@@ -10,9 +10,9 @@ import (
 	"github.com/ipfs/go-datastore/namespace"
 	"github.com/ipfs/go-datastore/query"
 
-	"github.com/filecoin-project/go-ds-versioning/internal/migrate"
-	"github.com/filecoin-project/go-ds-versioning/internal/runner"
-	versioning "github.com/filecoin-project/go-ds-versioning/pkg"
+	"github.com/chenjianmei111/go-ds-versioning/internal/migrate"
+	"github.com/chenjianmei111/go-ds-versioning/internal/runner"
+	versioning "github.com/chenjianmei111/go-ds-versioning/pkg"
 )
 
 type migratedDatastore struct {

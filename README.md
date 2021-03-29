@@ -1,7 +1,7 @@
 # go-ds-versioning
 [![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](http://ipn.io)
-[![CircleCI](https://circleci.com/gh/filecoin-project/go-ds-versioning.svg?style=svg)](https://circleci.com/gh/filecoin-project/go-ds-versioning)
-[![codecov](https://codecov.io/gh/filecoin-project/go-ds-versioning/branch/master/graph/badge.svg)](https://codecov.io/gh/filecoin-project/go-ds-versioning)
+[![CircleCI](https://circleci.com/gh/chenjianmei111/go-ds-versioning.svg?style=svg)](https://circleci.com/gh/chenjianmei111/go-ds-versioning)
+[![codecov](https://codecov.io/gh/chenjianmei111/go-ds-versioning/branch/master/graph/badge.svg)](https://codecov.io/gh/chenjianmei111/go-ds-versioning)
 
 Tools for building migratable datastore
 
@@ -34,7 +34,7 @@ the database. However, most commonly, we want to migrate one record type to anot
 
 **Requires go 1.14**
 
-Install the module in your package or app with `go get "github.com/filecoin-project/go-ds-versioning"`
+Install the module in your package or app with `go get "github.com/chenjianmei111/go-ds-versioning"`
 
 ## Usage
 
@@ -80,8 +80,8 @@ Let's defined a initial set of migration using go-ds-versioning's builders:
 
 ```golang
 import (
-	versioning "github.com/filecoin-project/go-ds-versioning/pkg"
-	"github.com/filecoin-project/go-ds-versioning/pkg/versioned"
+	versioning "github.com/chenjianmei111/go-ds-versioning/pkg"
+	"github.com/chenjianmei111/go-ds-versioning/pkg/versioned"
 )
 
 builder := versioned.NewVersionedBuilder(MigrateFruitBasket, versioning.VersionKey("1"))
@@ -122,12 +122,12 @@ func <T extends cbg.CBORUnmarshaller, U extends cbg.CBORMarshaller>(old T) (new 
 
 ### Executing Migrations
 
-Let's say we are using a [go-statestore](https://github.com/filecoin-project/go-statestore) for our fruit baskets:
+Let's say we are using a [go-statestore](https://github.com/chenjianmei111/go-statestore) for our fruit baskets:
 
 ```golang
 import (
     "github.com/ipfs/go-datastore"
-    "github.com/filecoin-project/go-statestore"
+    "github.com/chenjianmei111/go-statestore"
 )
 
 var ds datastore // this was setup elsewhere
@@ -139,8 +139,8 @@ To make it migratable, we replace it with a versioned statestore, with our migra
 ```golang
 import (
     "github.com/ipfs/go-datastore"
-    versioning "github.com/filecoin-project/go-ds-versioning/pkg"
-    "github.com/filecoin-project/go-ds-versioning/pkg/statestore"
+    versioning "github.com/chenjianmei111/go-ds-versioning/pkg"
+    "github.com/chenjianmei111/go-ds-versioning/pkg/statestore"
 )
 
 var ds datastore // this was setup elsewhere
@@ -206,7 +206,7 @@ The basic rules are:
 
 PRs are welcome!  Please first read the design docs and look over the current code.  PRs against 
 master require approval of at least two maintainers.  For the rest, please see our 
-[CONTRIBUTING](https://github.com/filecoin-project/go-ds-versioning/CONTRIBUTING.md) guide.
+[CONTRIBUTING](https://github.com/chenjianmei111/go-ds-versioning/CONTRIBUTING.md) guide.
 
 ## License
 This repository is dual-licensed under Apache 2.0 and MIT terms.

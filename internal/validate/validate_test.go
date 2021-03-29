@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/require"
 	cbg "github.com/whyrusleeping/cbor-gen"
 
-	"github.com/filecoin-project/go-ds-versioning/internal/validate"
-	versioning "github.com/filecoin-project/go-ds-versioning/pkg"
+	"github.com/chenjianmei111/go-ds-versioning/internal/validate"
+	versioning "github.com/chenjianmei111/go-ds-versioning/pkg"
 )
 
 func TestCheckMigration(t *testing.T) {

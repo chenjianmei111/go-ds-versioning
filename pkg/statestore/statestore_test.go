@@ -8,10 +8,10 @@ import (
 	"github.com/stretchr/testify/require"
 	cbg "github.com/whyrusleeping/cbor-gen"
 
-	"github.com/filecoin-project/go-statestore"
+	"github.com/chenjianmei111/go-statestore"
 
-	versioning "github.com/filecoin-project/go-ds-versioning/pkg"
-	versioned "github.com/filecoin-project/go-ds-versioning/pkg/statestore"
+	versioning "github.com/chenjianmei111/go-ds-versioning/pkg"
+	versioned "github.com/chenjianmei111/go-ds-versioning/pkg/statestore"
 )
 
 func TestStateStore(t *testing.T) {

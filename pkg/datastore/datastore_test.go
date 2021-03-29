@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/require"
 	cbg "github.com/whyrusleeping/cbor-gen"
 
-	versioning "github.com/filecoin-project/go-ds-versioning/pkg"
-	versioned "github.com/filecoin-project/go-ds-versioning/pkg/datastore"
+	versioning "github.com/chenjianmei111/go-ds-versioning/pkg"
+	versioned "github.com/chenjianmei111/go-ds-versioning/pkg/datastore"
 )
 
 func TestDatastore(t *testing.T) {
